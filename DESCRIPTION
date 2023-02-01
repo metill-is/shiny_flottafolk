@@ -15,6 +15,9 @@ BugReports: https://github.com/metill-is/shiny_flottafolk/issues
 LazyData: true
 Depends:
     R (>= 4.2.2)
-Suggests: 
 Imports: 
-
+    dplyr,
+    eurostat,
+    lubridate,
+    stringr,
+    tidyr

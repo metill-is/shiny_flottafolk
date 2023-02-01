@@ -1,0 +1,18 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# Flóttafólk
+
+Hér vinn ég í að útbúa mælaborð sem tekur saman upplýsingar bæði um flóttafólk og hælisleitendur, en stefnan er svo að greina gögn um innflytjendur almennt
