@@ -1,0 +1,20 @@
+Package: shiny_flottafolk
+Title: A shiny application
+Version: 0.0.5
+Authors@R: 
+    person("Brynjólfur Gauti", "Guðrúnar Jónsson", , "brynjolfur@hi.is", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-4730-5584"))
+Description: An application to analyse stuff
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+URL: https://github.com/metill-is/shiny_flottafolk,
+    http://metill.is/maelabord/flottafolk
+BugReports: https://github.com/metill-is/shiny_flottafolk/issues
+LazyData: true
+Depends:
+    R (>= 4.2.2)
+Suggests: 
+Imports: 
+
