@@ -13,6 +13,8 @@ library(thematic)
 library(glue)
 library(stringr)
 library(RColorBrewer)
+library(forcats)
+library(janitor)
 
 theme_set(theme_metill())
 thematic_on()
