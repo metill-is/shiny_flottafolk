@@ -10,14 +10,14 @@ library(here)
 library(purrr)
 library(plotly)
 library(thematic)
+library(glue)
+library(stringr)
+library(RColorBrewer)
 
 theme_set(theme_metill())
 thematic_on()
 shinyOptions(plot.autocolor = TRUE)
 Sys.setlocale("LC_ALL", "is_IS.UTF-8")
-code_files <- here("R") |> list.files()
-code_files <- here("R", code_files)
-for (file in code_files) source(file)
 
 
 # Data --------------------------------------------------------------------
@@ -27,6 +27,8 @@ d <- here("Data/Data.parquet") |>
 
 
 # Theming -----------------------------------------------------------------
+
+iceland_col <- "#08306b"
 
 bs_global_theme(
     bootswatch = "flatly"

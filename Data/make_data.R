@@ -136,9 +136,9 @@ d <- beneficiaries |>
     select(-value, -pop) |> 
     pivot_wider(names_from = name, values_from = per_pop) |> 
     rename(
-        "Fjöldi með vernd" = beneficiaries,
-        "Umsækjendur" = applicants,
-        "Veitt vernd í mánuði" = grants
+        "Fjöldi einstaklinga með tímabundna vernd" = beneficiaries,
+        "Mánaðarlegur fjöldi umsækjenda" = applicants,
+        "Mánaðarlegur fjöldi einstaklinga sem var veitt tímabundin vernd" = grants
     ) |> 
     pivot_longer(c(-time, -land), names_to = "variable") |> 
     rename(group = land)
